@@ -12,19 +12,21 @@
     --sec-text-font: 'Montserrat', sans-serif;
 }
 body {
-    box-sizing: border-box;
     background-color: var(--main-bg-color);
     color: var(--main-txt-color);
 }
 .cabecalho{
-    padding: 5% 0 0 10%;
+    width: 100%;
+    padding: 5% 0 0 5%;
 }
 .cabecalho__menu{
+    width: 100%;
     display: flex;
-    gap: 80px;
+    gap: 10%;
 }
 .cabecalho__menu__link{
     font-family: var(--sec-text-font);
+    text-align: center;
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--tth-color);
@@ -34,7 +36,8 @@ body {
     color: var(--tth-color);
 }
 .apresentacao{
-    padding: 5% 10%;
+    width: 100%;
+    padding: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -82,30 +85,31 @@ body {
 .apresentacao__links__botao{
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 5%;
     text-align: center;
     align-items: center;
-    width: 50%;
+    width: 12rem;
     border-radius: 8px;
     font-size: 1.5rem;
-    padding: 21.5px 0px;
+    padding: 1rem 0rem;
     color: var(--main-txt-color);
     font-family: var(--sec-text-font);
     font-weight: 600;
     text-decoration: none;
-    border: 4px outset var(--tth-color);
+    border: 2px outset var(--tth-color);
 }
 .apresentacao__links__botao:hover{
-    border: 4px inset var(--tth-color);
+    border: 2px inset var(--tth-color);
     background-image: var(--buttonhover-bg-color);
 }
 .fotohover{
+    align-items: center;
     position: relative;
     width: fit-content;
 }
 .apresentacao__fotopraia{
     width: 100%;
-    margin-left: 0;
+    margin: 0;
     border-radius: 8px;
     border: 2.5px outset var(--tth-color);
     box-shadow: var(--fth-color) 5px 5px;
@@ -138,7 +142,8 @@ body {
     gap: 40px;
 }
 .rodape{
-    padding: 24px;
+    width: 100%;
+    padding: 1%;
     color: var(--main-bg-color);
     background-color: var(--tth-color);
     text-align: center;
