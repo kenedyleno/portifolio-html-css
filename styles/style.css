@@ -131,10 +131,12 @@ body {
     opacity: 1;
 }
 .fotodescricao__texto{
-    
     font-size: 1.25rem;
     font-family: var(--sec-text-font);
     text-align: center;
+}
+.fotohover_mobile{
+    display: none;
 }
 .apresentacao__conteudo__imagens{
     display: flex;
@@ -152,7 +154,7 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
     .cabecalho{
         padding: 8% 0% 2% 0% ;
     }
@@ -164,9 +166,27 @@ body {
         padding: 2.5% 5% 5% 5%;
     }
     .apresentacao__conteudo{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: auto;
     }
+    .apresentacao__conteudo__texto{
+        position: relative;
+    }
+    .apresentacao__conteudo__imagens, .fotohover{
+        display: none;
+    }
+    .fotohover_mobile{
+        display: inline-block;
+        margin: 2%;
+        align-items: center;
+        width: fit-content;
+    }
     .apresentacao__fotopraia{
+        display: block;
         width: 70%;
         align-items: center;
         margin-left: 15%;

@@ -16,6 +16,8 @@
 
 * Flex-box
 
+##  <a href="https://portifolio-html-css-sooty.vercel.app/index.html">Link</a> para a aplicação.
+
 ## Feito por:
 
 ### Kenedy Souza
